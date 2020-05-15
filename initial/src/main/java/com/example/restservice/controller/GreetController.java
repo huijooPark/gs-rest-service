@@ -34,6 +34,7 @@ public class GreetController {
         logger.info("user_name :" + user.getName());
         logger.info("user_age :" + user.getAge());
         logger.info("user_address :" + user.getAddress());
+        logger.info("test :" + user.getAddress());
 
         return user;
     }
